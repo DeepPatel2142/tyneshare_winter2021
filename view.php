@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thanks for submitting</title>
-</head>
-<body>
-  <header>
-        <h1> TuneShare 2021 - Share Your Fave Tunes & Join The Community</h1>
-  </header>
+<?php require('header.php')?>
         <?php
         
         //connect to db
@@ -41,8 +31,4 @@
     
 
         ?>
-  <footer>
-        <p> &copy; <?php echo getdate()['year']; ?> </p>
-  </footer> 
-</body>
-</html>
+<?php require('footer.php')?>
