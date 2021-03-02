@@ -17,7 +17,7 @@
         $records = $statement->fetchAll();
 
         //eco out top of table
-        echo "<table><tbody>";
+        echo "<table class= 'table-dark table-striped'><tbody>";
 
         foreach($records as $record) {
             echo"<tr><td>". $record['first_name']. 
