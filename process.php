@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thanks For Submitting</title>
-</head>
-<body>
-    <header>
-        <h1> TuneShare 2021 - Share Your Fave Tunes & Join The Community</h1>
-    </header>
+<?php require('header.php')?>
         <?php
 
         //1. create variables to store info 
@@ -73,8 +62,4 @@
 
         }
         ?>
-    <footer>
-        <p> &copy; <?php echo getdate()['year']; ?> </p>
-    </footer> 
-</body>
-</html>
+<?php require('footer.php')?>
