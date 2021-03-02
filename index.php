@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tuneshare 2021</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 <body>
  <header>
@@ -26,8 +27,8 @@
          <lable for="email">Your Email</lable>
          <input type="email" name="email" id="email">
 
-         <lable for="number">Your Age</lable>
-         <input type="number" name="number" id="number">
+         <lable for="age">Your Age</lable>
+         <input type="number" name="age" id="age">
 
          <lable for="favsong">What Are You Listening To Right Now!!!!</lable>
          <input type="text" name="favsong" id="favsong">
